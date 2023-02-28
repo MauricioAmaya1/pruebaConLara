@@ -1,0 +1,167 @@
+[2023-02-17 12:03:05] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Hola
+[2023-02-17 12:03:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-17 12:03:12] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Hola
+[2023-02-17 12:03:18] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-17 12:03:28] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-17 12:03:28] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-17 12:03:43] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 2
+[2023-02-17 12:03:43] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 2
+[2023-02-17 12:03:43] [ WARN ] [CategoriaService:50] Se realizo una operacion de eliminado de categoria con id 2
+[2023-02-21 10:40:38] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:42:12] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:44:54] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:46:38] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:47:04] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:47:04] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:47:04] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:47:58] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:47:59] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:47:59] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:50:24] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-21 10:50:24] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:51:19] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:51:19] [ WARN ] [CategoriaService:50] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-21 10:51:19] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:52:05] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:52:21] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:52:21] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:52:21] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:52:22] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-21 10:52:22] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:52:22] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:53:43] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-21 10:55:19] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-21 10:55:39] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:56:09] [ WARN ] [CategoriaService:50] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-21 10:56:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-21 10:59:09] [ WARN ] [CategoriaService:50] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-21 10:59:09] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:14:23] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:18:38] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:18:40] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:18:40] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:18:41] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:23:28] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:23:31] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:23:32] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:24:25] [ WARN ] [CategoriaService:50] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-22 11:24:25] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:50:57] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-22 11:50:57] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:50:57] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-22 11:50:58] [ INFO ] [CategoriaService:31] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-22 11:50:58] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:50:58] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-22 11:50:58] [ WARN ] [CategoriaService:50] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-22 11:50:58] [ INFO ] [CategoriaService:36] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-24 17:57:44] [ INFO ] [CiudadService:44] Se inicio una operacion de listado de ciudades 
+[2023-02-24 17:58:50] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo null
+[2023-02-24 17:59:04] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 17:59:32] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 18:00:59] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 2
+[2023-02-24 18:00:59] [ INFO ] [CiudadService:34] Se inicio una operacion para actualizar una ciudad con nombre: la mas picante
+[2023-02-24 18:01:14] [ INFO ] [CiudadService:44] Se inicio una operacion de listado de ciudades 
+[2023-02-24 18:02:05] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-02-24 18:02:05] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-02-24 18:02:05] [ WARN ] [CiudadService:52] Se realizo una operacion de eliminado de ciudad con id 1
+[2023-02-24 18:02:08] [ INFO ] [CiudadService:44] Se inicio una operacion de listado de ciudades 
+[2023-02-24 18:03:27] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-02-24 18:05:19] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 18:05:20] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 18:05:21] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 18:05:27] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 4
+[2023-02-24 18:05:34] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 2
+[2023-02-24 18:05:34] [ INFO ] [CiudadService:39] Se inicio una operacion para buscar una ciudad con el id: 2
+[2023-02-24 18:05:35] [ WARN ] [CiudadService:52] Se realizo una operacion de eliminado de ciudad con id 2
+[2023-02-24 18:05:40] [ INFO ] [CiudadService:44] Se inicio una operacion de listado de ciudades 
+[2023-02-24 18:06:35] [ INFO ] [ProductoService:41] Se inicio una operacion de listado de productos 
+[2023-02-24 18:08:47] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-24 18:08:49] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-24 18:08:57] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa de lujo
+[2023-02-24 18:09:38] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa linda
+[2023-02-24 18:09:45] [ INFO ] [CategoriaService:42] Se inicio una operacion de listado de categorias 
+[2023-02-24 18:09:52] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: departamento de lujo
+[2023-02-24 18:12:10] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa linda
+[2023-02-24 18:12:16] [ INFO ] [CategoriaService:26] Se inicio una operacion de guardado de la categoria con titulo Casa lindass
+[2023-02-24 18:12:22] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 18:12:23] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-24 18:12:29] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: departamento de lujo
+[2023-02-24 18:12:34] [ INFO ] [ProductoService:41] Se inicio una operacion de listado de productos 
+[2023-02-24 18:20:18] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: departamento de lujo
+[2023-02-24 18:20:57] [ INFO ] [CiudadService:29] Se inicio una operacion para guardar una ciudad con nombre: departamento de lujo
+[2023-02-25 21:26:59] [ INFO ] [CiudadService:44] Se inicio una operacion de listado de ciudades 
+[2023-02-27 19:05:40] [ INFO ] [CategoriaService:39] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-27 19:05:40] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:05:40] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:05:41] [ INFO ] [CategoriaService:45] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-27 19:05:41] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:05:41] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:05:41] [ WARN ] [CategoriaService:64] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-27 19:05:41] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:08:38] [ INFO ] [CategoriaService:39] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-27 19:08:39] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:08:39] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:08:39] [ INFO ] [CategoriaService:45] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-27 19:08:39] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:08:39] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:08:39] [ WARN ] [CategoriaService:64] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-27 19:08:39] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:39] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:45] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:09:31] [ WARN ] [CategoriaService:64] Se realizo una operacion de eliminado de categoria con id 1
+[2023-02-27 19:09:31] [ INFO ] [CategoriaService:50] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-02-27 19:10:38] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:10:43] [ INFO ] [CategoriaService:39] Se inicio una operacion de guardado de la categoria con titulo Casa lindass
+[2023-02-27 19:10:50] [ INFO ] [CiudadService:33] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-02-27 19:16:45] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:16:52] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-27 19:18:28] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-27 19:18:32] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:18:48] [ INFO ] [CiudadService:33] Se inicio una operacion para guardar una ciudad con nombre: ropa de bebe
+[2023-02-27 19:51:32] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 19:51:38] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-27 19:54:56] [ INFO ] [ProductoService:65] Se inicio una operacion de listado de productos 
+[2023-02-27 19:54:59] [ INFO ] [ProductoService:65] Se inicio una operacion de listado de productos 
+[2023-02-27 19:55:04] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-27 19:56:26] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-27 19:57:08] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-27 19:58:14] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-27 19:58:54] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-27 20:00:10] [ INFO ] [CategoriaService:56] Se inicio una operacion de listado de categorias 
+[2023-02-27 20:00:15] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-27 20:00:20] [ INFO ] [ProductoService:65] Se inicio una operacion de listado de productos 
+[2023-02-27 20:00:44] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-27 20:02:16] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-27 20:02:21] [ INFO ] [ProductoService:33] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-28 18:21:25] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-02-28 18:21:31] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-28 18:21:41] [ INFO ] [ProductoService:64] Se inicio una operacion de listado de productos 
+[2023-02-28 18:49:11] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-02-28 18:49:18] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-02-28 18:50:43] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-28 18:54:42] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-28 19:05:45] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-28 19:09:42] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-02-28 19:47:16] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
