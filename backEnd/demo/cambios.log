@@ -165,3 +165,259 @@
 [2023-02-28 19:05:45] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
 [2023-02-28 19:09:42] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
 [2023-02-28 19:47:16] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:25:58] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-03-01 10:26:03] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-03-01 10:26:34] [ INFO ] [CategoriaService:32] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 10:27:06] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:27:32] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:31:30] [ INFO ] [ProductoService:66] Se inicio una operacion de listado de productos 
+[2023-03-01 10:31:48] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 1
+[2023-03-01 10:31:48] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 1
+[2023-03-01 10:31:48] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 1
+[2023-03-01 10:31:53] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 2
+[2023-03-01 10:31:53] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 2
+[2023-03-01 10:31:53] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 2
+[2023-03-01 10:31:57] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 3
+[2023-03-01 10:31:57] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 3
+[2023-03-01 10:31:57] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 3
+[2023-03-01 10:31:59] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 4
+[2023-03-01 10:31:59] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 4
+[2023-03-01 10:31:59] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 4
+[2023-03-01 10:32:01] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 5
+[2023-03-01 10:32:01] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 5
+[2023-03-01 10:32:01] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 5
+[2023-03-01 10:32:03] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 6
+[2023-03-01 10:32:03] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 6
+[2023-03-01 10:32:03] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 6
+[2023-03-01 10:32:04] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 7
+[2023-03-01 10:32:04] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 7
+[2023-03-01 10:32:04] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 7
+[2023-03-01 10:32:06] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 8
+[2023-03-01 10:32:06] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 8
+[2023-03-01 10:32:06] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 8
+[2023-03-01 10:32:07] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 9
+[2023-03-01 10:32:07] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 9
+[2023-03-01 10:32:07] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 9
+[2023-03-01 10:32:09] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 1
+[2023-03-01 10:32:11] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 10
+[2023-03-01 10:32:11] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 10
+[2023-03-01 10:32:11] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 10
+[2023-03-01 10:32:13] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 11
+[2023-03-01 10:32:13] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 11
+[2023-03-01 10:32:13] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 11
+[2023-03-01 10:32:15] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 12
+[2023-03-01 10:32:15] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 12
+[2023-03-01 10:32:15] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 12
+[2023-03-01 10:32:17] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 13
+[2023-03-01 10:32:17] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 13
+[2023-03-01 10:32:17] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 13
+[2023-03-01 10:33:28] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:34:48] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-03-01 10:34:53] [ INFO ] [CategoriaService:32] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 10:34:57] [ INFO ] [CiudadService:33] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-03-01 10:35:08] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:37:45] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-03-01 10:37:52] [ INFO ] [CategoriaService:32] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 10:37:57] [ INFO ] [CiudadService:33] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-03-01 10:38:02] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:38:43] [ INFO ] [CiudadService:43] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 10:38:43] [ INFO ] [CiudadService:38] Se inicio una operacion para actualizar una ciudad con nombre: departamento de messi
+[2023-03-01 10:38:50] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: null
+[2023-03-01 10:39:15] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: null
+[2023-03-01 10:39:21] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: null
+[2023-03-01 10:40:02] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: null
+[2023-03-01 10:41:54] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: null
+[2023-03-01 10:42:19] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 1
+[2023-03-01 10:42:19] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 1
+[2023-03-01 10:42:19] [ WARN ] [ProductoService:104] Se realizo una operacion de eliminado de producto con id 1
+[2023-03-01 10:42:24] [ INFO ] [ProductoService:66] Se inicio una operacion de listado de productos 
+[2023-03-01 10:42:29] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 10:44:25] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-03-01 10:45:48] [ INFO ] [CategoriaService:32] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 10:46:12] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-03-01 10:47:15] [ INFO ] [CategoriaService:43] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 10:47:15] [ INFO ] [CategoriaService:38] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-01 10:47:28] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-03-01 10:47:53] [ INFO ] [CiudadService:43] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 10:47:53] [ INFO ] [CiudadService:38] Se inicio una operacion para actualizar una ciudad con nombre: Buenos Aires
+[2023-03-01 10:48:18] [ INFO ] [CiudadService:43] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 10:48:18] [ INFO ] [CiudadService:38] Se inicio una operacion para actualizar una ciudad con nombre: departamento de messi
+[2023-03-01 10:49:29] [ INFO ] [CiudadService:43] Se inicio una operacion para buscar una ciudad con el id: null
+[2023-03-01 10:50:03] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 1
+[2023-03-01 10:50:37] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: null
+[2023-03-01 10:50:53] [ INFO ] [ProductoService:32] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-01 10:51:22] [ INFO ] [ProductoService:53] Se inicio una operacion para buscar un producto con el id: 3
+[2023-03-01 10:51:22] [ INFO ] [ProductoService:43] Se inicio una operacion para actualizar un producto con nombre: departamento de rrrrrr
+[2023-03-01 10:51:29] [ INFO ] [ProductoService:66] Se inicio una operacion de listado de productos 
+[2023-03-01 13:13:30] [ INFO ] [ProductoService:75] Se inicio una operacion de listado de productos 
+[2023-03-01 13:13:43] [ INFO ] [ProductoService:44] Se inicio una operacion para actualizar un producto con nombre: departamento de rrrrrr
+[2023-03-01 13:14:03] [ INFO ] [ProductoService:34] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-01 13:15:13] [ INFO ] [ProductoService:75] Se inicio una operacion de listado de productos 
+[2023-03-01 13:24:09] [ INFO ] [CategoriaService:49] Se inicio una operacion de listado de categorias 
+[2023-03-01 13:24:17] [ INFO ] [CiudadService:48] Se inicio una operacion de listado de ciudades 
+[2023-03-01 13:24:23] [ INFO ] [ProductoService:72] Se inicio una operacion de listado de productos 
+[2023-03-01 13:24:42] [ INFO ] [ProductoService:72] Se inicio una operacion de listado de productos 
+[2023-03-01 13:31:48] [ INFO ] [ProductoService:72] Se inicio una operacion de listado de productos 
+[2023-03-01 15:02:24] [ INFO ] [ProductoService:72] Se inicio una operacion de listado de productos 
+[2023-03-01 15:05:46] [ INFO ] [ProductoService:72] Se inicio una operacion de listado de productos 
+[2023-03-01 15:06:08] [ INFO ] [ProductoService:31] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-01 15:06:32] [ INFO ] [ProductoService:31] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 15:07:23] [ INFO ] [ProductoService:31] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 15:08:21] [ INFO ] [ProductoService:31] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 16:31:46] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:34:00] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:34:45] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:35:10] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:36:20] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:36:35] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:37:06] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:38:04] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:38:56] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:39:52] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:40:30] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-01 16:40:52] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto1
+[2023-03-01 16:41:27] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-01 16:41:27] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-01 16:52:03] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-01 16:52:03] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-01 16:52:03] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 16:52:03] [ INFO ] [CategoriaService:77] Se inicio una operacion de listado de categorias 
+[2023-03-01 16:54:48] [ INFO ] [CategoriaService:77] Se inicio una operacion de listado de categorias 
+[2023-03-01 16:55:10] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-01 16:55:10] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-01 16:55:10] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 16:55:10] [ INFO ] [CategoriaService:77] Se inicio una operacion de listado de categorias 
+[2023-03-01 17:03:13] [ INFO ] [CategoriaService:77] Se inicio una operacion de listado de categorias 
+[2023-03-01 17:03:22] [ INFO ] [CiudadService:75] Se inicio una operacion de listado de ciudades 
+[2023-03-01 17:03:31] [ INFO ] [ProductoService:31] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:03:52] [ INFO ] [ProductoService:31] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:39:40] [ INFO ] [ProductoService:35] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:40:38] [ INFO ] [ProductoService:37] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:40:38] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 17:40:38] [ INFO ] [CiudadService:61] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 17:40:56] [ INFO ] [CiudadService:75] Se inicio una operacion de listado de ciudades 
+[2023-03-01 17:41:42] [ INFO ] [ProductoService:37] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:42:00] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 17:43:51] [ INFO ] [CiudadService:61] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 17:44:20] [ INFO ] [ProductoService:37] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:44:20] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 17:44:21] [ INFO ] [CiudadService:61] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 17:48:32] [ INFO ] [ProductoService:39] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:49:55] [ INFO ] [ProductoService:39] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:49:55] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 17:49:55] [ INFO ] [CiudadService:61] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 17:55:18] [ INFO ] [ProductoService:39] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:55:18] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-01 17:55:18] [ INFO ] [CiudadService:62] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 17:55:32] [ INFO ] [CategoriaService:37] Se inicio una operacion de guardado de la categoria con titulo rrrr
+[2023-03-01 17:55:51] [ INFO ] [ProductoService:39] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-01 17:55:51] [ INFO ] [CategoriaService:62] Se inicio una operacion de busqueda de categoria con ID 5
+[2023-03-01 17:55:51] [ INFO ] [CiudadService:62] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-01 17:56:32] [ INFO ] [ProductoService:101] Se inicio una operacion de listado de productos 
+[2023-03-02 09:25:53] [ INFO ] [ProductoService:99] Se inicio una operacion de listado de productos 
+[2023-03-02 09:27:45] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-02 09:28:13] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-02 09:28:40] [ INFO ] [CiudadService:33] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-03-02 09:28:57] [ INFO ] [ProductoService:37] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-02 09:28:57] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-02 09:28:57] [ INFO ] [CiudadService:60] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-02 10:18:06] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-02 10:18:09] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-02 10:18:25] [ INFO ] [CiudadService:33] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-03-02 10:18:30] [ INFO ] [ProductoService:37] Se inicio una operacion para guardar un producto con nombre: departamento de maradona
+[2023-03-02 10:18:30] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-02 10:18:30] [ INFO ] [CiudadService:60] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-02 18:20:45] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-02 18:20:45] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-02 18:20:45] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-02 18:21:10] [ INFO ] [ProductoService:112] Se inicio una operacion de listado de productos 
+[2023-03-02 18:21:54] [ INFO ] [ProductoService:112] Se inicio una operacion de listado de productos 
+[2023-03-02 18:22:07] [ INFO ] [CiudadService:77] Se inicio una operacion de listado de ciudades 
+[2023-03-02 18:22:16] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-02 18:25:41] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-02 18:25:41] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-02 18:25:41] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-02 18:27:40] [ INFO ] [ProductoService:112] Se inicio una operacion de listado de productos 
+[2023-03-02 18:29:31] [ INFO ] [ProductoService:112] Se inicio una operacion de listado de productos 
+[2023-03-02 18:31:04] [ INFO ] [ProductoService:112] Se inicio una operacion de listado de productos 
+[2023-03-02 20:19:29] [ INFO ] [ProductoService:119] Se inicio una operacion de listado de productos 
+[2023-03-02 20:19:47] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-02 20:19:49] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-02 20:19:49] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-02 20:23:17] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-02 20:23:18] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-02 20:23:18] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-02 20:23:32] [ INFO ] [ProductoService:117] Se inicio una operacion de listado de productos 
+[2023-03-03 13:38:42] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:38:42] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:38:42] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:38:42] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= null
+[2023-03-03 13:38:42] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:39:21] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:39:21] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:39:50] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:39:50] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:39:50] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:39:51] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= null
+[2023-03-03 13:39:51] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:40:33] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:44:39] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:46:42] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:46:46] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-03 13:46:51] [ INFO ] [CiudadService:36] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-03-03 13:46:58] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-03 13:46:58] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:46:58] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-03 13:49:33] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-03 13:52:20] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:52:49] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:54:41] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:55:06] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:55:39] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:55:39] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:55:39] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:55:39] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:55:39] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-03 13:55:39] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:55:40] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:56:11] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:56:12] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto2
+[2023-03-03 13:56:12] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 13:56:12] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 13:56:12] [ INFO ] [CategoriaService:43] Se inicio una operacion de actualizado de categoria con ID= 1
+[2023-03-03 13:56:12] [ INFO ] [CategoriaService:87] Se inicio una operacion de eliminar una categoria 
+[2023-03-03 13:56:12] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 14:52:54] [ INFO ] [CategoriaService:73] Se inicio una operacion de listado de categorias 
+[2023-03-03 14:52:58] [ INFO ] [CategoriaService:33] Se inicio una operacion de guardado de la categoria con titulo depto
+[2023-03-03 14:53:05] [ INFO ] [CiudadService:36] Se inicio una operacion para guardar una ciudad con nombre: Rosario
+[2023-03-03 14:53:32] [ INFO ] [CaracteristicaService:36] Se inicio una operacion para agregar una caracteristica
+[2023-03-03 14:53:42] [ INFO ] [CaracteristicaService:45] Se inicio una operacion para listar las caracteristicas
+[2023-03-03 14:54:19] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-03 14:54:19] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 14:54:19] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-03 14:55:35] [ INFO ] [CaracteristicaService:45] Se inicio una operacion para listar las caracteristicas
+[2023-03-03 14:55:38] [ INFO ] [ProductoService:117] Se inicio una operacion de listado de productos 
+[2023-03-03 14:55:47] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-03 14:55:47] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 14:55:47] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1
+[2023-03-03 14:57:40] [ INFO ] [ProductoService:47] Se inicio una operacion para guardar un producto con nombre: departamento de messi
+[2023-03-03 14:57:40] [ INFO ] [CategoriaService:58] Se inicio una operacion de busqueda de categoria con ID 1
+[2023-03-03 14:57:40] [ INFO ] [CiudadService:63] Se inicio una operacion para buscar una ciudad con el id: 1

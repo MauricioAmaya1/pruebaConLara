@@ -7,7 +7,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -27,7 +30,7 @@ public class Ciudad {
 
     @JsonIgnore
     @OneToMany(mappedBy = "ciudad", cascade = CascadeType.ALL)
-    private List<Producto> productos;
+    private Set<Producto> productos =  new HashSet<>();
 
 
 }

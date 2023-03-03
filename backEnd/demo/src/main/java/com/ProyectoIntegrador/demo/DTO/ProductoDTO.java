@@ -1,25 +1,20 @@
-package com.ProyectoIntegrador.demo.DTO;
+package com.ProyectoIntegrador.demo.dto;
 
-import com.ProyectoIntegrador.demo.model.Categoria;
-import com.ProyectoIntegrador.demo.model.Ciudad;
 import com.ProyectoIntegrador.demo.model.Imagen;
 import com.ProyectoIntegrador.demo.model.Puntuacion;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.CascadeType;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class ProductoDTO {
 
     private Long id_producto;
@@ -27,14 +22,13 @@ public class ProductoDTO {
     private String descripcion;
     private String direccion;
 
+    private CategoriaDTO categoria;
+    private CiudadDTO ciudad;
 
-    private Long id_categoria;
-    private Long id_ciudad;
 
-    /*
-    private List<Puntuacion> puntuaciones;
-    private List<Imagen> listadeimagenes;
-    */
+   // private Integer puntuaciones;
+    // private List<Imagen> lista_de_imagenes;
+
 
 
 }

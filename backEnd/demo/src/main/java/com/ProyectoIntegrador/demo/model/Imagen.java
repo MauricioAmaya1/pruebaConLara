@@ -25,8 +25,8 @@ public class Imagen {
     @Column(length = 250, nullable = false)
     private String url_imagen;
 
-    @Column(name = "id_producto")
-    private Long id_producto;
+    //@Column(name = "id_producto")
+    //private Long id_producto;
 
 
 

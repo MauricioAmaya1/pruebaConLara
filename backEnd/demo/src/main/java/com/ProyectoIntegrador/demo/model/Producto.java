@@ -28,15 +28,29 @@ public class Producto {
     @Column(length = 100, nullable = false)
     private String direccion;
 
-
     @ManyToOne
     @JoinColumn(name = "id_ciudad", referencedColumnName = "id_ciudad")
     private Ciudad ciudad;
 
-
     @ManyToOne
     @JoinColumn(name = "id_categoria", referencedColumnName = "id_categoria")
     private Categoria categoria;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_producto")
+    private List<Imagen> lista_de_imagenes;       //unidireccional
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_producto")
+    private List<Puntuacion> puntuaciones;     //unidireccional
+
+    @ManyToMany
+    @JoinTable(name ="caracteristicas_de_productos",
+            joinColumns = @JoinColumn(name = "id_producto"),
+            inverseJoinColumns = @JoinColumn(name ="id_caracteristica"))              //unidireccional
+    private List <Caracteristica> caracteristicas;
+
+
 
 
 

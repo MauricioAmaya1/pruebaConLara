@@ -16,9 +16,10 @@ public class Caracteristica {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long caracteristicas_id;
+    private Long id_caracteristica;
 
     @Column(length = 50)
     private String nombre;
+
 
 }

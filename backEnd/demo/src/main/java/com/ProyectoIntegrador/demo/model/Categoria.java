@@ -5,9 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Data
@@ -27,12 +30,11 @@ public class Categoria {
     private String descripcion;
 
     @Column(nullable = false)
-    private String urlImagen;
-
+    private String url_imagen;
 
     @JsonIgnore
     @OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
-    private List<Producto> productos;
+    private Set<Producto> productos = new HashSet<>();
 
 
 }

@@ -1,6 +1,7 @@
 package com.ProyectoIntegrador.demo.service;
 
 import com.ProyectoIntegrador.demo.exception.ResourceNotFoundException;
+import com.ProyectoIntegrador.demo.model.Producto;
 import com.ProyectoIntegrador.demo.model.Puntuacion;
 import com.ProyectoIntegrador.demo.repository.PuntuacionRepository;
 import org.apache.log4j.Logger;
@@ -28,7 +29,17 @@ public class PuntuacionService {
 
     public Puntuacion actualizarPuntuacion(Puntuacion puntuacion) {
         LOGGER.info("Se inicio una operacion para actualizar una Puntuacion con id: " + puntuacion.getId_puntuacion());
-        return puntuacionRepository.save(puntuacion);
+
+        Optional<Puntuacion> puntuacionBuscada = puntuacionRepository.findById(puntuacion.getId_puntuacion());
+
+        if (puntuacionBuscada.isEmpty()){
+            puntuacion.setPuntuacion(puntuacion.getPuntuacion());
+            puntuacion.setId_producto(puntuacion.getId_producto());
+            return puntuacionRepository.save(puntuacion);
+        }else{
+            LOGGER.info("La puntuacion no pude ser actualizada");
+            return null;
+        }
     }
 
     public Optional<Puntuacion> buscarPuntuacion(Long id) {
@@ -47,7 +58,6 @@ public class PuntuacionService {
             puntuacionRepository.deleteById(id);
             LOGGER.warn("Se realizo una operacion de eliminado de Puntuacion con id " + id);
         } else {
-
             throw new ResourceNotFoundException("La Puntuacion a eliminar no existe" +
                     " en la base de datos, se intentó encontrar sin éxito en id= " + id);
         }

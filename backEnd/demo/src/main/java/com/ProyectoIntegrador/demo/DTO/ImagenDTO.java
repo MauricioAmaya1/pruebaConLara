@@ -1,4 +1,4 @@
-package com.ProyectoIntegrador.demo.DTO;
+package com.ProyectoIntegrador.demo.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

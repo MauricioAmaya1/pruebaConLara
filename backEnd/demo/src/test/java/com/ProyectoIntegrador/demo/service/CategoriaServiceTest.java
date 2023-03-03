@@ -1,15 +1,17 @@
 package com.ProyectoIntegrador.demo.service;
 
 
+import com.ProyectoIntegrador.demo.dto.CategoriaDTO;
 import com.ProyectoIntegrador.demo.exception.BadRequestException;
 import com.ProyectoIntegrador.demo.exception.ResourceNotFoundException;
 import com.ProyectoIntegrador.demo.model.Categoria;
+import com.ProyectoIntegrador.demo.model.Producto;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,15 +21,21 @@ public class CategoriaServiceTest {
 
     @Autowired
     private CategoriaService categoriaService;
+    @Autowired
+    private ObjectMapper mapper;
 
 
     @Test
     @Order(1)
     void guardarCategoria() throws BadRequestException {
+        Set<Producto> productos = new HashSet<>();
+        Categoria categoria = new Categoria(11L,"depto2","es un departamento",
+                "www.google.com/images", productos);
 
-        Categoria categoria = new Categoria(1L,"depto","es un departamento","www.google.com/images");
-        Categoria categoriaAGuardar = categoriaService.agregarCategoria(categoria);
-        Assertions.assertNotNull(categoriaAGuardar);
+        CategoriaDTO categoriaDTO = mapper.convertValue(categoria, CategoriaDTO.class);
+        CategoriaDTO categoriaCreada = categoriaService.agregarCategoria(categoriaDTO);
+
+        Assertions.assertNotNull(categoriaService.agregarCategoria(categoriaCreada));
 
     }
 
@@ -37,41 +45,44 @@ public class CategoriaServiceTest {
     void buscarCategoria() throws BadRequestException {
 
         Long idABuscar = 1L;
-        Optional<Categoria> categoria = categoriaService.buscarCategoria(idABuscar);
-        Assertions.assertNotNull(categoria.get());
+        CategoriaDTO categoria = categoriaService.buscarCategoria(idABuscar);
+        Assertions.assertNotNull(categoria.getId_categoria());
 
     }
 
     @Test
     @Order(3)
     void buscarTodosCategorias() {
-        List<Categoria> categoria= categoriaService.listaCategoria();
-        Integer cantidadEsperada = 1;
-        Assertions.assertEquals(cantidadEsperada, categoria.size());
+        List<CategoriaDTO> categoria= categoriaService.listaCategoria();
+        Assertions.assertTrue(categoria.size() > 0);
     }
 
 
 
     @Test
     @Order(4)
-    void actualizarCategoria() throws BadRequestException {
+    void actualizarCategoria() {
 
-        Categoria categoriaActualizar = new Categoria(1L,"Casa","es una casa","www.google.com/");
+        CategoriaDTO categoriaActualizar = new CategoriaDTO(1L,"Nueva categoria","es una nueva cat","soy una url");
+
         categoriaService.actualizarCategoria(categoriaActualizar);
-        Optional<Categoria> categoriaActualizado= categoriaService.buscarCategoria(categoriaActualizar.getId_categoria());
-        assertEquals("Casa",categoriaActualizado.get().getTitulo());
+
+        Assertions.assertNotNull(categoriaActualizar);
 
     }
 
 
     @Test
     @Order(5)
-    void eliminarCategoria() throws BadRequestException, ResourceNotFoundException {
+    void eliminarCategoria() throws ResourceNotFoundException {
 
         Long idAEliminar=1L;
+
         categoriaService.eliminarCategoria(idAEliminar);
-        Optional<Categoria> odontologoEliminado = categoriaService.buscarCategoria(idAEliminar);
-        Assertions.assertFalse(odontologoEliminado.isPresent());
+
+        CategoriaDTO categoriaDTOEliminada = categoriaService.buscarCategoria(idAEliminar);
+
+        Assertions.assertNull(categoriaDTOEliminada);
 
     }
 

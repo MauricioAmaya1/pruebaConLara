@@ -1,15 +1,13 @@
 package com.ProyectoIntegrador.demo.service;
 
-import com.ProyectoIntegrador.demo.DTO.CategoriaDTO;
-import com.ProyectoIntegrador.demo.exception.BadRequestException;
+import com.ProyectoIntegrador.demo.dto.CategoriaDTO;
 import com.ProyectoIntegrador.demo.exception.ResourceNotFoundException;
 import com.ProyectoIntegrador.demo.model.Categoria;
-import com.ProyectoIntegrador.demo.model.Producto;
 import com.ProyectoIntegrador.demo.repository.CategoriaRepository;
-import com.ProyectoIntegrador.demo.repository.ProductoRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -21,6 +19,9 @@ public class CategoriaService {
     @Autowired
     private CategoriaRepository categoriaRepository;
 
+    @Autowired
+    private ObjectMapper mapper;
+
     private static final Logger LOGGER = Logger.getLogger(CategoriaService.class);
 
     public CategoriaService(CategoriaRepository categoriaRepository) {
@@ -28,38 +29,72 @@ public class CategoriaService {
     }
 
 
-    public Categoria agregarCategoria(Categoria categoria)  {
-        LOGGER.info("Se inicio una operacion de guardado de la categoria con titulo " + categoria.getTitulo());
-        return categoriaRepository.save(categoria);
+    public CategoriaDTO agregarCategoria(CategoriaDTO categoriaDTO)  {
+        LOGGER.info("Se inicio una operacion de guardado de la categoria con titulo " + categoriaDTO.getTitulo());
+
+        Categoria categoriaAGuardar = mapper.convertValue(categoriaDTO , Categoria.class);
+        Categoria cateogoriaGuardada = categoriaRepository.save(categoriaAGuardar);
+
+        return mapper.convertValue(cateogoriaGuardada, CategoriaDTO.class);
     }
 
 
-    public Categoria actualizarCategoria(Categoria categoria){
-        LOGGER.info("Se inicio una operacion de actualizado de categoria con ID= " + categoria.getId_categoria());
-        return categoriaRepository.save(categoria);
+    public CategoriaDTO actualizarCategoria(CategoriaDTO categoriaDTO){
+        LOGGER.info("Se inicio una operacion de actualizado de categoria con ID= " + categoriaDTO.getId_categoria());
+
+        Optional<Categoria> categoriaABuscar = categoriaRepository.findById(categoriaDTO.getId_categoria());
+
+        if (categoriaABuscar.isEmpty()) {
+            ResponseEntity.badRequest().body("La categoria con titulo " + categoriaDTO.getTitulo() + " no existe en la BD. No se puede actualizar algo que no existe");
+        }
+
+        Categoria categoriaAActualizar = mapper.convertValue(categoriaDTO , Categoria.class);
+        Categoria categoriaActualizada = categoriaRepository.save(categoriaAActualizar);
+
+        return mapper.convertValue(categoriaActualizada, CategoriaDTO.class);
     }
 
-    public Optional<Categoria> buscarCategoria(Long id) {
+    public CategoriaDTO buscarCategoria(Long id) {
         LOGGER.info("Se inicio una operacion de busqueda de categoria con ID " + id);
-        return categoriaRepository.findById(id);
+
+        Optional<Categoria> categoriaBuscada = categoriaRepository.findById(id);
+
+        if (categoriaBuscada.isPresent()){
+            ResponseEntity.ok("La categoria con id " + id + " se encuentra en la base de datos");
+        }else{
+            ResponseEntity.ok("La categoria con id " + id + " no se encuentra en la base de datos");
+        }
+
+        return mapper.convertValue(categoriaBuscada, CategoriaDTO.class);
     }
 
 
-    public List<Categoria> listaCategoria(){
+    public List<CategoriaDTO> listaCategoria(){
         LOGGER.info("Se inicio una operacion de listado de categorias ");
-        return categoriaRepository.findAll();
+
+        List<Categoria> categoriasEncontradas = categoriaRepository.findAll();
+
+        List<CategoriaDTO> categoriaDTOList = new ArrayList<>();
+
+        for ( Categoria c : categoriasEncontradas ) {
+            categoriaDTOList.add(mapper.convertValue(c , CategoriaDTO.class));
+        }
+
+        return  categoriaDTOList;
     }
 
-    public void eliminarCategoria(Long id) throws ResourceNotFoundException {
-        Optional<Categoria> categoriaAEliminar = buscarCategoria(id);
-        if (categoriaAEliminar.isPresent()){
-            categoriaRepository.deleteById(id);
-            LOGGER.warn("Se realizo una operacion de eliminado de categoria con id " + id);
-        }
-        else {
+    public String eliminarCategoria(Long id) throws ResourceNotFoundException {
+        LOGGER.info("Se inicio una operacion de eliminar una categoria ");
 
-            throw new ResourceNotFoundException("La categoria a eliminar no existe en la base de datos, se intentó encontrar sin éxito en id= "+id);
+        Optional<Categoria> categoriaBuscada = categoriaRepository.findById(id);
+
+        if (categoriaBuscada.isEmpty()){
+            ResponseEntity.ok("La categoria que desea eliminar no existe o ya fue eliminado");
         }
+
+        categoriaRepository.deleteById(id);
+
+        return "Se elimino la categoria con Id " + id ;
 
     }
 
